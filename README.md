@@ -5,10 +5,10 @@ Para a resolução deste desafio, foram empregados os seguintes conceitos fundam
 
 Variáveis: Para armazenar dados como o número de vitórias e derrotas.
 Operadores: Para realizar cálculos, como a subtração entre vitórias e derrotas.
-Estruturas de Decisão (if/else): Para definir o nível do herói com base no saldo de vitórias.
+Estruturas de Decisão (switch case): Para definir o nível do herói com base no saldo de vitórias.
 Funções: Para organizar o código em blocos reutilizáveis e lógicos.
+<br><br>
 A solução implementada utilizou duas funções distintas:
-
 A primeira função tinha a responsabilidade de calcular o saldo de vitórias, subtraindo o número de derrotas do número de vitórias. O resultado desta operação (o saldo rankeado) era então retornado.
 
 Posteriormente, uma segunda função era encarregada de realizar o rankeamento do herói, seguindo a seguinte tabela de classificação:
