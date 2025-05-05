@@ -12,14 +12,15 @@ A solução implementada utilizou duas funções distintas:
 A primeira função tinha a responsabilidade de calcular o saldo de vitórias, subtraindo o número de derrotas do número de vitórias. O resultado desta operação (o saldo rankeado) era então retornado.
 
 Posteriormente, uma segunda função era encarregada de realizar o rankeamento do herói, seguindo a seguinte tabela de classificação:
-
-Se o número de vitórias for menor que 10, o nível é Ferro.
-Se o número de vitórias estiver entre 11 e 20, o nível é Bronze.
-Se o número de vitórias estiver entre 21 e 50, o nível é Prata.
-Se o número de vitórias estiver entre 51 e 80, o nível é Ouro.
-Se o número de vitórias estiver entre 81 e 90, o nível é Diamante.
-Se o número de vitórias estiver entre 91 e 100, o nível é Lendário.
-Se o número de vitórias for maior ou igual a 101, o nível é Imortal.
+<ul>
+  <li>Se o número de vitórias for menor que 10, o nível é Ferro.</li>
+  <li>Se o número de vitórias estiver entre 11 e 20, o nível é Bronze.</li>
+  <li>Se o número de vitórias estiver entre 21 e 50, o nível é Prata.</li>
+  <li>Se o número de vitórias estiver entre 51 e 80, o nível é Ouro.</li>
+  <li>Se o número de vitórias estiver entre 81 e 90, o nível é Diamante.</li>
+  <li>Se o número de vitórias estiver entre 91 e 100, o nível é Lendário.</li>
+  <li>Se o número de vitórias for maior ou igual a 101, o nível é Imortal.</li>
+</ul>
 Ao final da execução da segunda função, a resposta era apresentada no console através da seguinte mensagem formatada:
 
 "O Herói tem saldo de {saldoVitorias} e está no nível de {nivel}"
